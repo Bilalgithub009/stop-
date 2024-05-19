@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>stop watch</h1>
+
+    <div style="display: flex; justify-content: center; font-size: 30px; color: white;">
+     <h3 id="min">0</h3>
+    <h3>:</h3>
+    <h3 id="seconds">0</h3>
+    <h3>:</h3>
+    <h3 id="ms">00</h3>
+    </div>
+    
+    
+    <div style="display: flex; justify-content: center; margin-right: 0px;">
+        <button class="btn_design" id="start_btn" onclick="start()">start</button >
+        <button class="btn_design2" onclick="stop()">stop</button >
+        <button class="btn_design3" onclick="reset()">reset</button >
+
+       </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
